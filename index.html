@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica - Página Principal</title>
+    <style>
+        /* Estilos CSS para o layout */
+        body {
+            background-color: #f2f2f2; /* Cor de fundo suave */
+            font-family: Arial, sans-serif; /* Fonte semelhante à do site de referência */
+            margin: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #088667; /* Cor de fundo do cabeçalho */
+            padding: 5px;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .menu {
+            flex-basis: 20%; /* Largura fixa para o menu */
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li {
+            margin-bottom: 10px;
+        }
+        .main-content {
+            flex-basis: 75%; /* Largura flexível para o conteúdo principal */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .specialties {
+            display: flex;
+            justify-content: space-between;
+        }
+        .specialty {
+            flex-basis: calc(33.33% - 10px);
+            background-color: #088667;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 20px;
+            margin-right: 20px;
+        }
+        footer {
+            text-align: right;
+            background-color: #088667; /* Cor de fundo do rodapé */
+            padding: 10px;
+            color: #fff;
+            font-size: 14px; /* Tamanho de fonte menor para o rodapé */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagem02.jpg" alt="Imagem Principal" width="300" height="1000">
+        <nav>
+            <ul>
+                <!-- Links para as outras páginas -->
+                <li><a href="">Página Principal</a></li>
+                <li><a href="pag02.html">Sobre a Clínica</a></li>
+                <li><a href="pag03.html">Horário de Atendimento</a></li>
+                <li><a href="pag04.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Cardiologia</a></li>
+                <li><a href="#">Psiquiatria</a></li>
+                <li><a href="#">Outras Especialidades</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Bem-vindo à Clínica Médica</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis hendrerit eros, quis feugiat lorem. Fusce ac purus ut orci lacinia egestas.
+            </p>
+            <p>
+                aishdiadhoadhpxasdhpadhpasdpsadpa
+                apdsaidhsapidhiasdasidhaispdhsahd
+                asidhaoidhaisdhadhiahd
+            </p>
+            <br> <br><br><br><br><br><br>
+            <div class="specialties">
+                <div class="specialty">
+                    <h2>Cardiologia</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="specialty">
+                    <h2>Psiquiatria</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="specialty">
+                    <h2>Outras Especialidades</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Endereço: Rua Principal, 123 - Cidade</p>
+        <p>Telefone: (123) 456-7890</p>
+    </footer>
+</body>
+</html>
